@@ -1,0 +1,9 @@
+const profile = document.querySelector('.profile');
+export const popupProfile = document.querySelector('.popup-profile');
+export const popupProfileOpen = document.querySelector('.profile__edit-button');
+export const valuePopupName = document.querySelector('.popup__input_value_name');
+export const valuePopupAbout = document.querySelector('.popup__input_value_about');
+export const popupAddImage = document.querySelector('.popup-addimage');
+export const popupAddImageOpen = document.querySelector('.profile__add-button');
+export const popupNewAvatar = document.querySelector('.popup-newAvatar');
+export const popupNewAvatarButton = document.querySelector('.profile__avatar-button');
