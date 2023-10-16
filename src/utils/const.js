@@ -3,6 +3,7 @@ export const CONFIG = {
   inputSelector: '.popup__input',
   elementsSelector: '.elements',
   popupImageSelector: '.popup-image',
+  popupOpened: 'popup_opened',
   submitButtonSelector: '.popup__save-button',
   profileNameSelector: '.profile__name',
   profileAboutSelector: '.profile__about',
