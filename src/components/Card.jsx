@@ -17,7 +17,7 @@ export default function Card({ cardData, onCardClick, onCardLike, onCardDelete }
     return (
         <section className="elements">
           <div className="elements__item">
-            <img src={link} alt='' className='elements__photo' onClick={handleClick} />
+            <img src={link} alt='изображение карточки места' className='elements__photo' onClick={handleClick} />
             <div className="elements__content">
               <h2 className="elements__place">{name}</h2>
               <div className="elements__likes">

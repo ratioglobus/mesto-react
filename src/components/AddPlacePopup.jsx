@@ -9,7 +9,9 @@ export default function AddPlacePopup({ isOpen, onClose, onAddPlace }) {
     event.preventDefault();
 
     onAddPlace({ namenewimage, linknewimage });
-  }
+    setName("");
+    setLink("");
+  };
 
   return (
     <PopupWithForm
