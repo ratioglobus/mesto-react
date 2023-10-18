@@ -13,16 +13,16 @@ export default function Card({ cardData, onCardClick, onCardLike, onCardDelete }
 
     const isLiked = likes.some(like => like._id === currentUserId);
     const isOwn = owner._id === currentUserId;
-    
+
     return (
         <section className="elements">
           <div className="elements__item">
-            <img src={link} alt='изображение карточки места' className='elements__photo' onClick={handleClick} />
+            <img src={link} alt={name} className='elements__photo' onClick={handleClick} />
             <div className="elements__content">
               <h2 className="elements__place">{name}</h2>
               <div className="elements__likes">
-                <button 
-                  type="button" 
+                <button
+                  type="button"
                   className={`elements__like-button ${isLiked && 'elements__like-button_active'}`}
                   onClick={() => onCardLike(cardData)}>
                 </button>
